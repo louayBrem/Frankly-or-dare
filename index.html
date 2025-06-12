@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=segoe UI' rel='stylesheet'>
+    <title>Frankly or Dare</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h2>Frankly or dare</h2>
+            <p>Enter players names (no more than 8)</p>
+        </div>
+        <div class="form">
+            <div class="inputAndBtn">
+                <input type="text" id="inputPlayer" placeholder="Player 1">
+                <button id="addPlayer">Add Player</button>
+            </div>
+            <button id="startGame">Start game</button>
+        </div>
+        <div class="output">
+            
+            <h2></h2>
+            <!--
+            <div class="franklyOrDare">
+                <button class="btn" id="frankly">Frankly</button>
+                <button class="btn" id="dare">Dare</button>
+            </div>
+            <div class="outputText">
+                <p id="do-it"><b>Player 5 :</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, et incidunt.</p>
+            </div>
+            -->
+        </div>
+        <button id="choosePlayer">
+            Choos another player
+        </buttonn>
+    </div>
+    <button id="showPlayersList" class="showPlayersList">
+        <i class="fa-solid fa-users"></i>
+        <span>Show Players List</span>
+    </button>
+    <div class="playersList">
+        <div class="headerList">
+            <h2>Players :</h2>
+            <button id="hidePlayerList"><i class="fa-solid fa-xmark"></i></i></button>
+        </div>
+        
+        <ul class="list">
+            <!--<li>louay</li>
+            <li>hello</li>
+            <li>there</li>
+            <li>this</li>
+            <li>why</li>--> 
+        </ul>
+    </div>
+
+    <script src="franklyAndDare.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
